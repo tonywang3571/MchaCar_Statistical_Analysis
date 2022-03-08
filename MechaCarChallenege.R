@@ -23,8 +23,8 @@ lot_summary <- summarize(lot_groups, mean(PSI), median(PSI), var(PSI), sd(PSI))
 lot_summary
 
 # T-test overall statistical difference of mean population of 1500
-sample_PSI <- suspension_coil[ ,c("PSI")]
 # Compare sample vs. given mean population of 1500
+sample_PSI <- suspension_coil[ ,c("PSI")]
 t.test(sample_PSI, mu=1500)
 
 # lot 1

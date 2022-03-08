@@ -21,18 +21,32 @@ Summary statistics for all 3 lots separated:
 The design specifications for the suspension coils must not exceed 100 PSI variance. We can see from our images that the total summary or combined summary (var=62.3 PSI) does meet the requirement of less than 100 PSI variance, but if we look at the lots separately, we can see that lot 3 (var=170 PSI) does not meet the requirement of less than 100 PSI variance.  
 
 ## T-Tests on Suspension Coils  
+### T-Test Comparing All Manufacturing Lots vs. Mean PSI population = 1500:###  
+- H~0: There is no statistical difference between the observed sample mean and its presumed population mean.
+- H~A: There is statistical difference between the observed sample mean and its presumed population mean.  
+We calculated a p-value = 0.06, therefore we do not reject the null hypothesis and conclude that there is no statistical difference between the obsvered sample mean and its presumed population mean. If the p-value is less than or equal to 0.05, then can reject the null hypothesis because we are within 95% of our significance level.  
+<img src="Resources/ttest_overall.PNG">  
 
-## Analysis and Results  
+### T-Test Comparing Each Manufacturing Lot vs. Mean PSI population = 1500:###  
+- H~0: There is no statistical difference between the observed sample mean of Lot 1 and its presumed population mean.
+- H~A: There is statistical difference between the observed sample mean of Lot 1 and its presumed population mean.  
+Lot 1 p-value = 1. Therefore we do not reject the null hypothesis and conclude that there is no statistical difference between the observed sample mean of Lot 1 and its presumed population.  
+<img src="Resources/ttest_lot1.PNG">  
 
-**Analysis:**  
-For this project,  
+- H~0: There is no statistical difference between the observed sample mean of Lot 2 and its presumed population mean.
+- H~A: There is statistical difference between the observed sample mean of Lot 2 and its presumed population mean.  
+Lot 2 p-value = 0.6. Therefore we do not reject the null hypothesis and conclude that there is no statistical difference between the observed sample mean of Lot 2 and its presumed population.  
+<img src="Resources/ttest_lot2.PNG">  
+
+- H~0: There is no statistical difference between the observed sample mean of Lot 3 and its presumed population mean.
+- H~A: There is statistical difference between the observed sample mean of Lot 3 and its presumed population mean.  
+Lot 3 p-value = 0.04. Therefore we reject the null hypothesis and conclude that there is statistical difference between the observed sample mean of Lot 3 and its presumed population.  
+<img src="Resources/ttest_lot3.PNG">  
+
+### Study Design: MechaCar vs Copetition
 
 
-**Results:**  
-<img src="Resources/webpage1.PNG">  
-<img src="Resources/webpage2.PNG">  
-
-## Challenge Summary  
+## Summary Analysis  
 
 **Summary**  
 The purpose of this project  
