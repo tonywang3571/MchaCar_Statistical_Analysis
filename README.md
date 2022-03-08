@@ -2,7 +2,7 @@
 
 ## Overview of Project  
 **Purpose:**  
-The purpose of this project is to create a webpage that will scrape current news article, facts, and images of Mars with a click of a button.  
+The purpose of this project is to perform statistical analysis to predict mpg of MechaCar prototypes and calculate statistical summaries of PSI of suspension coils from manufacturing lots.  
 
 ## Resources:  
 - Data Source: [MechaCar_mpg.csv](https://github.com/tonywang3571/MechaCar_Statistical_Analysis/blob/master/MechaCar_mpg.csv), [Suspension_Coil.csv](https://github.com/tonywang3571/MechaCar_Statistical_Analysis/blob/master/Suspension_Coil.csv)  
@@ -48,7 +48,7 @@ Lot 3 p-value = 0.04. Therefore we reject the null hypothesis and conclude that 
 
 ## Study Design: MechaCar vs Copetition  
 We can design a statistical study to compare performance of MechaCar vehicle against performance of other manufacturers. We would use ANOVA tests for this analysis. A one way or two way ANOVA test could be used to compare means of multiple competition cars vs the MechaCars. Independent variables could be selected for a 1 way test and could be repeated with different variables. Or a 2 way test could be for any 2 different variables. The following could be potential hypotheses:  
-- H<sub>0</sub>: There is no statistical difference between observation sample mean 1 and observation sample mean 2 (µ1 ≠ µ2 ≠ ... ≠ µn).  
-- H<sub>A</sub>: There is statistical difference between observation sample mean 1 and observation sample mean 2 (µ1 = µ2 = ... = µn).  
+- H<sub>0</sub>: There is no statistical difference between observation sample mean 1 and observation sample mean 2 (µ<sub>1</sub> ≠ µ<sub>2</sub> ≠ ... ≠ µ<sub>n</sub>).  
+- H<sub>A</sub>: There is statistical difference between observation sample mean 1 and observation sample mean 2 (µ<sub>1</sub> = µ<sub>2</sub> = ... = µ<sub>n</sub>).  
 
 The p-value of the test would show statistical difference or no statistical difference between the 2 different variables being observed.  
