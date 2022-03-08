@@ -30,33 +30,25 @@ We calculated a p-value = 0.06, therefore we do not reject the null hypothesis a
 ### T-Test Comparing Each Manufacturing Lot vs. Mean PSI population = 1500:  
 - H<sub>0</sub>: There is no statistical difference between the observed sample mean of Lot 1 and its presumed population mean.
 - H<sub>A</sub>: There is statistical difference between the observed sample mean of Lot 1 and its presumed population mean.  
-  
+
 Lot 1 p-value = 1. Therefore we do not reject the null hypothesis and conclude that there is no statistical difference between the observed sample mean of Lot 1 and its presumed population.  
 <img src="Resources/ttest_lot1.PNG">  
 
 - H<sub>0</sub>: There is no statistical difference between the observed sample mean of Lot 2 and its presumed population mean.
 - H<sub>A</sub>: There is statistical difference between the observed sample mean of Lot 2 and its presumed population mean.  
-  
+
 Lot 2 p-value = 0.6. Therefore we do not reject the null hypothesis and conclude that there is no statistical difference between the observed sample mean of Lot 2 and its presumed population.  
 <img src="Resources/ttest_lot2.PNG">  
 
 - H<sub>0</sub>: There is no statistical difference between the observed sample mean of Lot 3 and its presumed population mean.
 - H<sub>A</sub>: There is statistical difference between the observed sample mean of Lot 3 and its presumed population mean.  
-  
+
 Lot 3 p-value = 0.04. Therefore we reject the null hypothesis and conclude that there is statistical difference between the observed sample mean of Lot 3 and its presumed population.  
 <img src="Resources/ttest_lot3.PNG">  
 
-### Study Design: MechaCar vs Copetition
+## Study Design: MechaCar vs Copetition  
+We can design a statistical study to compare performance of MechaCar vehicle against performance of other manufacturers. We would use ANOVA tests for this analysis. A one way or two way ANOVA test could be used to compare means of multiple competition cars vs the MechaCars. Independent variables could be selected for a 1 way test and could be repeated with different variables. Or a 2 way test could be for any 2 different variables. The following could be potential hypotheses:  
+- H<sub>0</sub>: There is no statistical difference between observation sample mean 1 and observation sample mean 2 ($/mu$1 =/ $/mu$2 =/ ... =/ $/mu$n).  
+- H<sub>A</sub>: There is statistical difference between observation sample mean 1 and observation sample mean 2 ($/mu$1 = $/mu$2 = ... = $/mu$n).  
 
-
-## Summary Analysis  
-
-**Summary**  
-The purpose of this project  
-
-
-### Codes Used  
-Please look at specific files for codes used  
-Code for []()  
-Code for []()  
-Code for []()  
+The p-value of the test would show statistical difference or no statistical difference between the 2 different variables being observed.  
